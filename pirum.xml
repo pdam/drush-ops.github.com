@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>drush-ops.github.com/pear</name>
+  <summary>Drush's PEAR Channel Server</summary>
+  <alias>drush-ops</alias>
+  <url>http://drush-ops.github.com/pear</url>
+</server>
