@@ -17,16 +17,17 @@
   <email>mark.sonnabaum@acquia.com</email>
   <active>yes</active>
  </lead>
- <date>2011-06-06</date>
+ <date>2011-07-21</date>
  <version>
-  <release>0.1</release>
-  <api>0.1</api>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
  </version>
  <stability>
   <release>beta</release>
   <api>beta</api>
  </stability>
  <license>BSD License</license>
+ <notes>-</notes>
  <contents>
   <dir name="/">
    <dir name="PHPUnit">
@@ -36,7 +37,6 @@
      </file>
     </dir>
    </dir>
-   <file baseinstalldir="/" name="ChangeLog.markdown" role="doc"/>
    <file baseinstalldir="/" name="LICENSE" role="doc"/>
   </dir>
  </contents>
