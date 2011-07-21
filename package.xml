@@ -8,7 +8,7 @@
                       http://pear.php.net/dtd/package-2.0
                       http://pear.php.net/dtd/package-2.0.xsd">
  <name>PHPUnit_Drush</name>
- <channel>pear.phpunit.de</channel>
+ <channel>drush-ops.github.com/pear</channel>
  <summary>Drush integration for PHPUnit</summary>
  <description>Drush integration for PHPUnit</description>
  <lead>

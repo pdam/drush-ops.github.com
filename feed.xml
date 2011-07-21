@@ -6,5 +6,16 @@
         <name>http://drush-ops.github.com/pear</name>
     </author>
 
-
+    <entry>
+        <title>PHPUnit_Drush 0.1.0 (beta)</title>
+        <link href="http://drush-ops.github.com/pear/get/PHPUnit_Drush-0.1.0.tgz" />
+        <id>PHPUnit_Drush-0.1.0</id>
+        <author>
+            <name>msonnabaum</name>
+        </author>
+        <updated>2011-07-21T18:31:29-05:00</updated>
+        <content>
+            Drush integration for PHPUnit
+        </content>
+    </entry>
 </feed>
