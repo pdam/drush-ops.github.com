@@ -35,6 +35,12 @@
      <file baseinstalldir="/" name="DrushTestCase.php" role="php">
       <tasks:replace from="@package_version@" to="version" type="package-info" />
      </file>
+     <file baseinstalldir="/" name="DrushCommandTestCase.php" role="php">
+      <tasks:replace from="@package_version@" to="version" type="package-info" />
+     </file>
+     <file baseinstalldir="/" name="DrushUnitTestCase.php" role="php">
+      <tasks:replace from="@package_version@" to="version" type="package-info" />
+     </file>
     </dir>
    </dir>
    <file baseinstalldir="/" name="LICENSE" role="doc"/>
