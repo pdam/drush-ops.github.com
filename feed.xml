@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://drush-ops.github.com/pear</id>
-    <updated>2011-08-26T09:36:13-05:00</updated>
+    <updated>2011-08-26T11:16:55-05:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
     <link href="http://drush-ops.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -27,6 +27,20 @@
             <name>weitzman</name>
         </author>
         <updated>2011-08-04T22:53:00-05:00</updated>
+        <content>
+            Drush is a command line shell and Unix scripting interface for Drupal.
+    If you are unfamiliar with shell scripting, reviewing the documentation
+    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
+    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+        </content>
+    </entry>    <entry>
+        <title>drush 4.6.0 (devel)</title>
+        <link href="http://drush-ops.github.com/pear/get/drush-4.6.0.tgz" />
+        <id>http://drush-ops.github.com/pear/get/drush-4.6.0.tgz</id>
+        <author>
+            <name>weitzman</name>
+        </author>
+        <updated>2011-08-26T11:16:10-05:00</updated>
         <content>
             Drush is a command line shell and Unix scripting interface for Drupal.
     If you are unfamiliar with shell scripting, reviewing the documentation

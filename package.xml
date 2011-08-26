@@ -44,10 +44,10 @@
     <active>yes</active>
   </developer>
   <date>2011-08-26</date>
-  <time>08:52:00</time>
+  <time>11:16:05</time>
   <version>
-    <release>5.0.0</release>
-    <api>5.0.0</api>
+    <release>4.6.0</release>
+    <api>4</api>
   </version>
   <stability>
     <release>devel</release>
@@ -57,162 +57,134 @@
   <notes>Initial release.</notes>
   <contents>
     <dir name="/" baseinstalldir="drush">
-      <file name=".gitignore" role="php" md5sum="1b978d50655dea9e923162b807b54de8"/>
-      <file name="README.txt" role="php" md5sum="83bf74c80c538e3cf985b72cdaf3a21e"/>
+      <file name="README.txt" role="php" md5sum="1b02d2f56d16f3c8daad3813b06b7627"/>
       <dir name="commands">
         <dir name="core">
-          <file name="archive.drush.inc" role="php" md5sum="4214e14b472f26ba75fc8165568f5091"/>
-          <file name="cache.drush.inc" role="php" md5sum="7bb8a48a46984b14f865d76d5bab2671"/>
-          <file name="core.drush.inc" role="php" md5sum="bc560de9d23928710b363a51f510511f"/>
-          <file name="docs.drush.inc" role="php" md5sum="7dc80a3db372c13335f01345f7d57daf"/>
+          <file name="archive.drush.inc" role="php" md5sum="00d4bb740ff748e5f665746daf84d92a"/>
+          <file name="cache.drush.inc" role="php" md5sum="436816d7256b54db0b4b40fce202c67c"/>
+          <file name="clear.cache.inc" role="php" md5sum="68b329da9893e34099c7d8ad5cb9c940"/>
+          <file name="core.drush.inc" role="php" md5sum="6b4be7d385890e954f54324eaa7de7d0"/>
+          <file name="docs.drush.inc" role="php" md5sum="e34361e5bffcba33f29e794dce898b65"/>
           <dir name="drupal">
-            <file name="batch.inc" role="php" md5sum="21687e98966d63a541a159f65a855076"/>
-            <file name="batch_6.inc" role="php" md5sum="42b1fd5f42c6e39d9774713b1c6d829f"/>
+            <file name="batch.inc" role="php" md5sum="5aab60ea459112ca6b229af597b7eb95"/>
+            <file name="batch_6.inc" role="php" md5sum="4eec1decea222c673c88a40d3d1d810b"/>
             <file name="environment.inc" role="php" md5sum="ce41dd22139fa572c57ece57fabb9f67"/>
+            <file name="environment_5.inc" role="php" md5sum="1d0296c230f3d11fca7a82900a10f0df"/>
             <file name="environment_6.inc" role="php" md5sum="c510305b57cd66460ba2c4daefffcc4d"/>
-            <file name="site_install.inc" role="php" md5sum="969e3f4217a60568ba893ea93ec519b8"/>
-            <file name="site_install_6.inc" role="php" md5sum="bedbe97f6c877779322bc3e709612a99"/>
-            <file name="update.inc" role="php" md5sum="21dd915c05e4814b68c31af358e66945"/>
-            <file name="update_6.inc" role="php" md5sum="eeeb2ee6cf11dcd891fe8b308cad5473"/>
+            <file name="site_install.inc" role="php" md5sum="c48fce72b49a8bb16a175b917c77f324"/>
+            <file name="site_install_6.inc" role="php" md5sum="ab4ebc3f3765d3790dad81032e428a65"/>
+            <file name="update.inc" role="php" md5sum="017c9de03ab129765ee8bc6af17aec1c"/>
+            <file name="update_5.inc" role="php" md5sum="33b6ca1b1770375f340912681ef95531"/>
+            <file name="update_6.inc" role="php" md5sum="0fa2e437ef14de50bfb72d8dc6020015"/>
           </dir>
-          <file name="field.drush.inc" role="php" md5sum="9da713dbe23eee3cec5a689b4266c2d4"/>
-          <file name="help.drush.inc" role="php" md5sum="eca6caeee626c0e1493009089f4c70fa"/>
-          <file name="image.drush.inc" role="php" md5sum="dc22570801c9421c37d0a2c14e00d5cd"/>
-          <file name="rsync.core.inc" role="php" md5sum="5653c1d355864f45a04e465007dbcdfa"/>
+          <file name="field.drush.inc" role="php" md5sum="cc3c11bee1a96ad1c0fe8b04f0d2230a"/>
+          <file name="help.drush.inc" role="php" md5sum="70ae16a8f7ee1c7a7500476da28e31a3"/>
+          <file name="image.drush.inc" role="php" md5sum="db29cac5f7bea1a248f36c7f7328c6b0"/>
+          <file name="rsync.core.inc" role="php" md5sum="710b331cae17c18353a640f21af69fb6"/>
           <file name="scratch.php" role="php" md5sum="0dd3ac77d1803a7e959a01c08e764441"/>
-          <file name="search.drush.inc" role="php" md5sum="1ad39f630fc6f280f5adebb975435df3"/>
-          <file name="shellalias.drush.inc" role="php" md5sum="b9c2f9d945bbb7108589b4c649c6db5d"/>
-          <file name="site_install.drush.inc" role="php" md5sum="748da1ddf5981d3206623883908da87e"/>
-          <file name="sitealias.drush.inc" role="php" md5sum="65fa10625e68ea41d2658fa5030fd92f"/>
-          <file name="ssh.drush.inc" role="php" md5sum="265e398b024372d2f6df0d237487771b"/>
-          <file name="test.drush.inc" role="php" md5sum="fcf338ef9d4f593d9b138f26ab4ae5bc"/>
-          <file name="topic.drush.inc" role="php" md5sum="40df019a529b6c556bedb3f8501a533f"/>
-          <file name="upgrade.drush.inc" role="php" md5sum="d0f0eb98da363fe055ec0241073a7b33"/>
-          <file name="variable.drush.inc" role="php" md5sum="9a396f2db4c1d1308c70dd7d1530fcb0"/>
-          <file name="watchdog.drush.inc" role="php" md5sum="db7d2ca45604a2a28593a0c147267041"/>
+          <file name="search.drush.inc" role="php" md5sum="d48ff8a8470a57ef5e22ccd65b515ae7"/>
+          <file name="site_install.drush.inc" role="php" md5sum="9f2748fe52e55a1c51315ef362fd49f4"/>
+          <file name="sitealias.drush.inc" role="php" md5sum="aee36ddd74e6f010f4c246fa60e434f2"/>
+          <file name="test.drush.inc" role="php" md5sum="82a0a1ca3f96b7bf6bc11394fa9909d4"/>
+          <file name="topic.drush.inc" role="php" md5sum="5e1b916b4ad3bb2c50b2c5f1a4d00a32"/>
+          <file name="upgrade.drush.inc" role="php" md5sum="8fc027eabd0c8e77d1c090cfa0dc2a0a"/>
+          <file name="variable.drush.inc" role="php" md5sum="63ac0240ffe56f8328ac6c7c1423728f"/>
+          <file name="watchdog.drush.inc" role="php" md5sum="59ecd974470aedfaa230b6091a5e58d3"/>
         </dir>
         <dir name="pm">
-          <file name="download.pm.inc" role="php" md5sum="1e7906833eb2bb73ff181f14b5d14780"/>
-          <file name="info.pm.inc" role="php" md5sum="7958fd4091b0dc65ffd861f1ebb09d26"/>
           <dir name="package_handler">
-            <file name="git_drupalorg.inc" role="php" md5sum="00c279938a158323d8fef23ca5e20889"/>
-            <file name="wget.inc" role="php" md5sum="9926daccacaaf8d0b8ccce4d212fff53"/>
+            <file name="cvs.inc" role="php" md5sum="9a6a4334270da5b296c37c69a04c3370"/>
+            <file name="git_drupalorg.inc" role="php" md5sum="c4d2c1835d8ac503440398f30124cdba"/>
+            <file name="wget.inc" role="php" md5sum="e8a9fcb8a4b0863173e1524f1390d1fa"/>
           </dir>
-          <file name="pm.drush.inc" role="php" md5sum="f707017ecec31c7bde74c4304577dbd2"/>
+          <file name="pm.drush.inc" role="php" md5sum="b3ac456851c8cdd5adff9f24eaee75f1"/>
           <dir name="update_info">
-            <file name="drupal.inc" role="php" md5sum="53c8c4eef9ff1e9389acaa919cdc7e8a"/>
-            <file name="drupal_6.inc" role="php" md5sum="432884c8657c8af37acb91996faa440b"/>
+            <file name="drupal.inc" role="php" md5sum="f25dfbc5a382d17bb52e46301bfcb05d"/>
+            <file name="drupal_5.inc" role="php" md5sum="600fc9f86bd2ee3e42e183e204a3aa6d"/>
+            <file name="drupal_6.inc" role="php" md5sum="b62fcdc06b88c939d6ac33870cbef33a"/>
           </dir>
-          <file name="updatecode.pm.inc" role="php" md5sum="d0310407296156a34af680b284793d0c"/>
+          <file name="updatecode.pm.inc" role="php" md5sum="105ac27d6b1b41a5ea266640e9afa9b4"/>
           <dir name="version_control">
             <file name="backup.inc" role="php" md5sum="d1d06b17ee8b26522b34184d13b2f96d"/>
             <file name="bzr.inc" role="php" md5sum="340540e62b6909f4bed35482e81cdf04"/>
             <file name="svn.inc" role="php" md5sum="58b667b2aa8d1be51aa3f95b5e20ea88"/>
           </dir>
         </dir>
-        <dir name="runserver">
-          <file name="runserver-drupal.inc" role="php" md5sum="0dff206c1cd1f6072237690fa0a5fdc8"/>
-          <file name="runserver-prepend.php" role="php" md5sum="777a76c511f57bd66a499c61203c1e8f"/>
-          <file name="runserver.drush.inc" role="php" md5sum="1eff2cbacef0e056b1f2f6b5b4836cbb"/>
-        </dir>
         <dir name="sql">
-          <file name="sql.drush.inc" role="php" md5sum="9dbe8023b49d86404a537bd2cdff6181"/>
-          <file name="sync.sql.inc" role="php" md5sum="35f93794f2d986f3b32891173e7ec817"/>
+          <file name="sql.drush.inc" role="php" md5sum="2df1b2e2969e9b7f888dd5d93b6593a6"/>
+          <file name="sync.sql.inc" role="php" md5sum="2f6beefe5d6d8c8ec0d12ec2f9fb31bf"/>
         </dir>
         <dir name="user">
-          <file name="user.drush.inc" role="php" md5sum="642d1a0683aa16a871e840e62d20aafc"/>
+          <file name="user.drush.inc" role="php" md5sum="3e12b77d9e290a24b9b6b8668241e015"/>
         </dir>
       </dir>
       <dir name="docs">
         <file name="bootstrap.html" role="php" md5sum="57917a9befc3962eeb6d316e0b33c662"/>
-        <file name="commands.html" role="php" md5sum="f9e3786b41c176909870203149f92ca0"/>
+        <file name="commands.html" role="php" md5sum="da6db65a695827e2aa889778602dd487"/>
         <file name="context.html" role="php" md5sum="c0cf0407318bad8156c49c1c87560f7c"/>
-        <file name="cron.html" role="php" md5sum="d1a4ce8fef383cf0798f9ae706e5ec62"/>
-        <file name="drush.api.php" role="php" md5sum="38195d447fed431491da6a6464558d7d"/>
+        <file name="drush.api.php" role="php" md5sum="fa72a1e2418a0c21a0f4646b32397c20"/>
         <file name="shellscripts.html" role="php" md5sum="54e160f9122dbdb5102d35ce881876e5"/>
-        <file name="upgrade.html" role="php" md5sum="ab04dfb8d563955ce9ccae5453a5da0a"/>
+        <file name="upgrade.html" role="php" md5sum="ef963237dde5c8971d60bf9733d197a7"/>
       </dir>
-      <file name="drush" role="script" baseinstalldir="/" md5sum="3aa0b5896ba88e7a400118770de69df9">
+      <file name="drush" role="script" baseinstalldir="/" md5sum="2d413fff34d92f50848550df392c3c23">
         <tasks:replace type="pear-config" from="/usr/bin/env php" to="php_bin"/>
         <tasks:replace type="pear-config" from="@php_bin@" to="php_bin"/>
         <tasks:replace type="pear-config" from="@bin_dir@" to="bin_dir"/>
         <tasks:replace type="pear-config" from="@pear_directory@" to="php_dir"/>
       </file>
-      <file name="drush.bat" role="script" baseinstalldir="/" md5sum="d8ffc1549d62f816cf7f7fc91f50ded4">
+      <file name="drush.bat" role="script" baseinstalldir="/" md5sum="a103802f44f21b539ceb37d072a4f4c5">
         <tasks:replace type="pear-config" from="/usr/bin/env php" to="php_bin"/>
         <tasks:replace type="pear-config" from="@php_bin@" to="php_bin"/>
         <tasks:replace type="pear-config" from="@bin_dir@" to="bin_dir"/>
         <tasks:replace type="pear-config" from="@pear_directory@" to="php_dir"/>
       </file>
-      <file name="drush.complete.sh" role="php" md5sum="f277e2e287772a45292fbca56ffe44f0"/>
-      <file name="drush.info" role="php" md5sum="18965f9837681dcc7bc9231c6041d580"/>
-      <file name="drush.php" role="php" md5sum="973b4698cedac1e46ea50a1692ea1d03"/>
+      <file name="drush.info" role="php" md5sum="6d9d5083f7a711ff16f2278728f0d13c"/>
+      <file name="drush.php" role="php" md5sum="b89c3dcbbf441d519fd41b7d828dcfd9"/>
       <file name="drush_logo-black.png" role="php" md5sum="d0dfa5741232719e554808a38ec05598"/>
       <dir name="examples">
-        <file name="example.aliases.drushrc.php" role="php" md5sum="d633b2953266fdab60d5520bb9e73f80"/>
+        <file name="example.aliases.drushrc.php" role="php" md5sum="8aced92d8ae3bc6dac7f6cc93efc94b4"/>
+        <file name="example.bashrc" role="php" md5sum="dedbe42ecfcac3ae19cb23136a02879f"/>
         <file name="example.drush.ini" role="php" md5sum="a56cceaab6f99250965688ac4ec29548"/>
-        <file name="example.drushrc.php" role="php" md5sum="e29867592a0f271cbd3318afbfc61b9b"/>
+        <file name="example.drushrc.php" role="php" md5sum="b02d5aee97b3c52285db4a9a40920399"/>
         <file name="helloworld.script" role="php" md5sum="226f0fbdb8a03a2d1dec0c5703108cf9"/>
-        <file name="policy.drush.inc" role="php" md5sum="f57bba3855591696112417c992ca84c8"/>
-        <file name="sandwich-nocolor.txt" role="php" md5sum="12fe8fb3a8c838e09812ebf7ed23d78e"/>
+        <file name="policy.drush.inc" role="php" md5sum="98b766b3cfa04804950aa8b748fd64c3"/>
         <file name="sandwich-topic.txt" role="php" md5sum="081480fcb380048b1fc3f8f5c6b83566"/>
-        <file name="sandwich.drush.inc" role="php" md5sum="3d0ba61673da9775807772b3572d2d8d"/>
+        <file name="sandwich.drush.inc" role="php" md5sum="a91c38381f37127178c00d1d5d117773"/>
         <file name="sandwich.txt" role="php" md5sum="2e5b566e28edbd0507cc7500f0d001e4"/>
-        <file name="xkcd.drush.inc" role="php" md5sum="cd6c974b263b3e9a2c14f333b015e51d"/>
+        <file name="xkcd.drush.inc" role="php" md5sum="17cb78b5670fb21ea82bf1709db39022"/>
       </dir>
       <dir name="includes">
         <file name=".gitignore" role="php" md5sum="3db15a4344f581cbffd5958c870088ba"/>
-        <file name="backend.inc" role="php" md5sum="83358b0bf35b89cd5bfa3a12ad2b4f8c"/>
-        <file name="batch.inc" role="php" md5sum="8d850b370ef85d1529bc57f19ea71528"/>
-        <file name="bootstrap.inc" role="php" md5sum="2c6c4146795424fb76671e0ad4d2a99c"/>
-        <file name="cache.inc" role="php" md5sum="07bb0aedb524e60ff151a56417fd8345"/>
-        <file name="command.inc" role="php" md5sum="04c9805b4df60659279350594561e7bb"/>
-        <file name="complete.inc" role="php" md5sum="1e676ba99759cc920c6d429cf9a1a311"/>
-        <file name="context.inc" role="php" md5sum="5f2f85773d43a0c5e33131604cf60251"/>
-        <file name="dbtng.inc" role="php" md5sum="f2e3a80d917d22605fef9ad39b3d70c8"/>
-        <file name="drupal.inc" role="php" md5sum="71091b04091b221be367a24a5a18bf7a"/>
-        <file name="drush.inc" role="php" md5sum="5595423dfab66fd9214dab23a602aeaa"/>
-        <file name="environment.inc" role="php" md5sum="f83e7c35cae5f43cf5559446892e7423"/>
-        <file name="exec.inc" role="php" md5sum="5e58dfa6df6a9c4fde1a4fb6e6dea77f"/>
-        <file name="filesystem.inc" role="php" md5sum="f4fd2e944bf4c1cc55a312eb53844ccd"/>
-        <file name="output.inc" role="php" md5sum="d5dea1586305747d2e9ec666e9a02c9e"/>
-        <file name="sitealias.inc" role="php" md5sum="78df6ddddc2e9f0f212e700a6f1ac5f4"/>
+        <file name="backend.inc" role="php" md5sum="e2e5af63ad037df4c5f08e2145188e74"/>
+        <file name="batch.inc" role="php" md5sum="a737934744ea65749dd5b41aae62cb8a"/>
+        <file name="command.inc" role="php" md5sum="f7c1692b1e34b95877d482d743023810"/>
+        <file name="context.inc" role="php" md5sum="f50f085dc7739a9a8ce7faa2c7ca048b"/>
+        <file name="drush.inc" role="php" md5sum="4ef59633305760cc412d0afac0c2a1a2"/>
+        <file name="environment.inc" role="php" md5sum="a9829dcebe958a44521fa319b39c037d"/>
+        <file name="sitealias.inc" role="php" md5sum="fe4417fb3b236940ea3b417052f38256"/>
       </dir>
-      <file name="pearfarm.spec" role="php" md5sum="5cdae637065f135405a71306cd016031"/>
       <dir name="tests">
-        <file name="COVERAGE.txt" role="php" md5sum="e88e6b5678622bba5846f3f18ae5771c"/>
-        <file name="README.txt" role="php" md5sum="6af36896c36b985292c4940eb8827e4b"/>
-        <file name="archiveDumpTest.php" role="php" md5sum="a17e0f23404aead5859cb74d44e3eecf"/>
-        <file name="backendTest.php" role="php" md5sum="831f1ce01af1200b634dbc3b9ed8f95e"/>
-        <file name="batchTest.php" role="php" md5sum="4d228a46820c5452c42897f638add484"/>
-        <file name="cacheCommandTest.php" role="php" md5sum="8f9a3408b876db1a92ee074c98f4f40f"/>
-        <file name="commandTest.php" role="php" md5sum="6c497dfcc8aefe42cffd65ec44fc74f6"/>
-        <file name="commandUnitTest.php" role="php" md5sum="7e78d96dbc1dc64edf1aabd8ea10e441"/>
-        <file name="completeTest.php" role="php" md5sum="506bfb65a489e803877f2e0933a63aeb"/>
-        <file name="contextTest.php" role="php" md5sum="7e738a6f4ba09135c444061acc3fbb65"/>
-        <file name="coreTest.php" role="php" md5sum="0c92e393b5d0767eb303f5c5a51e5653"/>
+        <file name="COVERAGE.txt" role="php" md5sum="14373bedddd8419241a07408a5bd46c2"/>
+        <file name="README.txt" role="php" md5sum="1f46eabe4a35a399786fbede13094341"/>
+        <file name="archiveDumpTest.php" role="php" md5sum="c180ac60e5a417c4cf5f52589d46c000"/>
+        <file name="backendTest.php" role="php" md5sum="8a7799c0fcc6db243d020d60597f9835"/>
+        <file name="commandTest.php" role="php" md5sum="ba740c23213ce675521b84d7b89f34c5"/>
+        <file name="contextTest.php" role="php" md5sum="9bf577c09c2b75e279803f30dba508e6"/>
+        <file name="coreTest.php" role="php" md5sum="bffd76e5a1d73ffd1527ef666ccb315a"/>
         <file name="devel.xml" role="php" md5sum="7f2a9d2d7ecf7b18c662840c064d09ca"/>
-        <file name="drush_testcase.inc" role="php" md5sum="00c7b9fb59cc9e82b64dbf091e347b35"/>
-        <file name="fieldTest.php" role="php" md5sum="cdd6bc551d31cdbfe9c43c8526f977a0"/>
-        <dir name="hooks">
-          <dir name="magic_help_alter">
-            <file name="magic.drush.inc" role="php" md5sum="f95e08def912e60dd689f3cd73d34f37"/>
-          </dir>
-        </dir>
-        <file name="phpunit.xml.dist" role="php" md5sum="60718a328d1a57981072a8b74dd33d0b"/>
-        <file name="pmDownloadTest.php" role="php" md5sum="37ade25743ae2a3458441282542da493"/>
-        <file name="pmEnDisUnListTest.php" role="php" md5sum="a47e471b2b8a022d9861e5000cd8ca35"/>
-        <file name="pmTest.inc" role="php" md5sum="a4042702ad576dcefe4986dd9a8f58fd"/>
-        <file name="pmUpdateCodeTest.php" role="php" md5sum="2a9fb9dfcba647ddb9211814f64e8c45"/>
+        <file name="drush_testcase.inc" role="php" md5sum="fdde269b4360d4ef11b3c69a40b17e2f"/>
+        <file name="fieldTest.php" role="php" md5sum="be3b1d712a14c231fd0a60b6ad465463"/>
+        <file name="phpunit.xml.dist" role="php" md5sum="a6e6e34214d8e22453e2a35d83388fe0"/>
+        <file name="pmDownloadTest.php" role="php" md5sum="d87ca773da01121eae369a627f89e8e6"/>
+        <file name="pmEnDisUnListTest.php" role="php" md5sum="20e40b64a96e49153a0124752774ac60"/>
+        <file name="pmUpdateCodeTest.php" role="php" md5sum="bd843f6f364b2edbe20142925203609d"/>
         <file name="runner.php" role="php" md5sum="03247f20f94ba5cabf319a540e592255"/>
-        <file name="shellAliasTest.php" role="php" md5sum="7c281231254fb2f743fbb25c24170044"/>
-        <file name="siteAliasTest.php" role="php" md5sum="f748f98d8a2d65242cbab58e4bf15ada"/>
-        <file name="siteSshTest.php" role="php" md5sum="0b5e067eda0485722c8a824f1f54f5da"/>
-        <file name="siteUpgradeTest.php" role="php" md5sum="31d0e52bb9d32b30ec6bdd48fbfd338f"/>
-        <file name="sqlSyncTest.php" role="php" md5sum="81b421443da7fa053abc0cea6fda1b5f"/>
-        <file name="unit.drush.inc" role="php" md5sum="a0c241f786f352329d68c73444db678d"/>
-        <file name="userTest.php" role="php" md5sum="bcb67558b15f8767c68a0bf6342c354c"/>
-        <file name="variableTest.php" role="php" md5sum="6a8049600f83057e47977e64a37db623"/>
+        <file name="siteAliasTest.php" role="php" md5sum="803bd1fa306bf2cb40b270c102713fee"/>
+        <file name="siteUpgradeTest.php" role="php" md5sum="e1bee88fb92ff54aa14bf316e81998e7"/>
+        <file name="sqlSyncTest.php" role="php" md5sum="500fcfad45a5f19e2bb934d0ddaaa2c8"/>
+        <file name="unit.drush.inc" role="php" md5sum="294c636313a7a945ccf291085df068cd"/>
+        <file name="userTest.php" role="php" md5sum="52b7a1bffadeef9786b72d0659691828"/>
+        <file name="variableTest.php" role="php" md5sum="89d75cb4226a8a01f29bbf2d466da22d"/>
       </dir>
     </dir>
   </contents>
