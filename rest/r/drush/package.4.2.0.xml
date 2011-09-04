@@ -44,7 +44,7 @@
   <active>yes</active>
  </developer>
  <date>2011-09-04</date>
- <time>12:38:29</time>
+ <time>14:37:09</time>
  <version>
   <release>4.2.0</release>
   <api>4</api>
@@ -121,7 +121,7 @@ Initial release.
    <file baseinstalldir="drush" md5sum="833e66a2dc9c2431dc367fc19dd7b43f" name="includes/environment.inc" role="php" />
    <file baseinstalldir="drush" md5sum="55a98be63c2324ebb17d470aabe7c89d" name="includes/sitealias.inc" role="php" />
    <file baseinstalldir="drush" md5sum="d13940da0d0a68591ac605a53cea2fd9" name="README.txt" role="php" />
-   <file baseinstalldir="/" md5sum="bde74368b90739492d38f39e80f0e638" name="drush" role="script">
+   <file baseinstalldir="/" md5sum="536d00990e2d3b9c1f7447c0515c6750" name="drush" role="script">
     <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
     <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
     <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
