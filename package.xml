@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0         http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd" version="2.0">
   <name>drush</name>
-  <channel>drush-ops.github.com/pear</channel>
+  <channel>pear.drush.org</channel>
   <summary>command line shell and Unix scripting interface for Drupal</summary>
   <description>Drush is a command line shell and Unix scripting interface for Drupal.
     If you are unfamiliar with shell scripting, reviewing the documentation
@@ -43,15 +43,15 @@
     <email>jonhattan@faita.net</email>
     <active>yes</active>
   </developer>
-  <date>2011-08-26</date>
-  <time>11:16:05</time>
+  <date>2011-08-30</date>
+  <time>13:13:36</time>
   <version>
-    <release>4.6.0</release>
+    <release>4.5.0</release>
     <api>4</api>
   </version>
   <stability>
-    <release>devel</release>
-    <api>devel</api>
+    <release>stable</release>
+    <api>stable</api>
   </stability>
   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
   <notes>Initial release.</notes>
@@ -138,7 +138,7 @@
         <tasks:replace type="pear-config" from="@bin_dir@" to="bin_dir"/>
         <tasks:replace type="pear-config" from="@pear_directory@" to="php_dir"/>
       </file>
-      <file name="drush.info" role="php" md5sum="6d9d5083f7a711ff16f2278728f0d13c"/>
+      <file name="drush.info" role="php" md5sum="090780ebd5b7c3c739bc0bfa3f6443d0"/>
       <file name="drush.php" role="php" md5sum="b89c3dcbbf441d519fd41b7d828dcfd9"/>
       <file name="drush_logo-black.png" role="php" md5sum="d0dfa5741232719e554808a38ec05598"/>
       <dir name="examples">
@@ -163,6 +163,8 @@
         <file name="environment.inc" role="php" md5sum="a9829dcebe958a44521fa319b39c037d"/>
         <file name="sitealias.inc" role="php" md5sum="fe4417fb3b236940ea3b417052f38256"/>
       </dir>
+      <file name="pear_build.sh" role="php" md5sum="449ac078f98a3670f0f95e0a7357fbf0"/>
+      <file name="pearfarm.spec" role="php" md5sum="84cf2ecf3cba2a137e1cf4bf3458b659"/>
       <dir name="tests">
         <file name="COVERAGE.txt" role="php" md5sum="14373bedddd8419241a07408a5bd46c2"/>
         <file name="README.txt" role="php" md5sum="1f46eabe4a35a399786fbede13094341"/>
