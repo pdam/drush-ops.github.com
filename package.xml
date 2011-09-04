@@ -43,8 +43,8 @@
     <email>jonhattan@faita.net</email>
     <active>yes</active>
   </developer>
-  <date>2011-08-30</date>
-  <time>13:13:36</time>
+  <date>2011-09-04</date>
+  <time>12:04:14</time>
   <version>
     <release>4.5.0</release>
     <api>4</api>
@@ -87,7 +87,7 @@
           <file name="sitealias.drush.inc" role="php" md5sum="aee36ddd74e6f010f4c246fa60e434f2"/>
           <file name="test.drush.inc" role="php" md5sum="82a0a1ca3f96b7bf6bc11394fa9909d4"/>
           <file name="topic.drush.inc" role="php" md5sum="5e1b916b4ad3bb2c50b2c5f1a4d00a32"/>
-          <file name="upgrade.drush.inc" role="php" md5sum="8fc027eabd0c8e77d1c090cfa0dc2a0a"/>
+          <file name="upgrade.drush.inc" role="php" md5sum="89856b7bc2591cccf9d74655045b96ad"/>
           <file name="variable.drush.inc" role="php" md5sum="63ac0240ffe56f8328ac6c7c1423728f"/>
           <file name="watchdog.drush.inc" role="php" md5sum="59ecd974470aedfaa230b6091a5e58d3"/>
         </dir>
@@ -112,7 +112,7 @@
         </dir>
         <dir name="sql">
           <file name="sql.drush.inc" role="php" md5sum="2df1b2e2969e9b7f888dd5d93b6593a6"/>
-          <file name="sync.sql.inc" role="php" md5sum="2f6beefe5d6d8c8ec0d12ec2f9fb31bf"/>
+          <file name="sync.sql.inc" role="php" md5sum="c3d8390ff0d12d8c841acb008f4b288f"/>
         </dir>
         <dir name="user">
           <file name="user.drush.inc" role="php" md5sum="3e12b77d9e290a24b9b6b8668241e015"/>
@@ -120,7 +120,7 @@
       </dir>
       <dir name="docs">
         <file name="bootstrap.html" role="php" md5sum="57917a9befc3962eeb6d316e0b33c662"/>
-        <file name="commands.html" role="php" md5sum="da6db65a695827e2aa889778602dd487"/>
+        <file name="commands.html" role="php" md5sum="41bd51b38c302820b511eccb17f13ee4"/>
         <file name="context.html" role="php" md5sum="c0cf0407318bad8156c49c1c87560f7c"/>
         <file name="drush.api.php" role="php" md5sum="fa72a1e2418a0c21a0f4646b32397c20"/>
         <file name="shellscripts.html" role="php" md5sum="54e160f9122dbdb5102d35ce881876e5"/>
@@ -142,7 +142,7 @@
       <file name="drush.php" role="php" md5sum="b89c3dcbbf441d519fd41b7d828dcfd9"/>
       <file name="drush_logo-black.png" role="php" md5sum="d0dfa5741232719e554808a38ec05598"/>
       <dir name="examples">
-        <file name="example.aliases.drushrc.php" role="php" md5sum="8aced92d8ae3bc6dac7f6cc93efc94b4"/>
+        <file name="example.aliases.drushrc.php" role="php" md5sum="2a44349d2289d0a5f9c51ff070703171"/>
         <file name="example.bashrc" role="php" md5sum="dedbe42ecfcac3ae19cb23136a02879f"/>
         <file name="example.drush.ini" role="php" md5sum="a56cceaab6f99250965688ac4ec29548"/>
         <file name="example.drushrc.php" role="php" md5sum="b02d5aee97b3c52285db4a9a40920399"/>
@@ -157,14 +157,12 @@
         <file name=".gitignore" role="php" md5sum="3db15a4344f581cbffd5958c870088ba"/>
         <file name="backend.inc" role="php" md5sum="e2e5af63ad037df4c5f08e2145188e74"/>
         <file name="batch.inc" role="php" md5sum="a737934744ea65749dd5b41aae62cb8a"/>
-        <file name="command.inc" role="php" md5sum="f7c1692b1e34b95877d482d743023810"/>
+        <file name="command.inc" role="php" md5sum="ec8af33c36f04c0c766c88641c726aa2"/>
         <file name="context.inc" role="php" md5sum="f50f085dc7739a9a8ce7faa2c7ca048b"/>
         <file name="drush.inc" role="php" md5sum="4ef59633305760cc412d0afac0c2a1a2"/>
-        <file name="environment.inc" role="php" md5sum="a9829dcebe958a44521fa319b39c037d"/>
+        <file name="environment.inc" role="php" md5sum="8ccd3aabae6345032fc5c9b310ad4968"/>
         <file name="sitealias.inc" role="php" md5sum="fe4417fb3b236940ea3b417052f38256"/>
       </dir>
-      <file name="pear_build.sh" role="php" md5sum="449ac078f98a3670f0f95e0a7357fbf0"/>
-      <file name="pearfarm.spec" role="php" md5sum="84cf2ecf3cba2a137e1cf4bf3458b659"/>
       <dir name="tests">
         <file name="COVERAGE.txt" role="php" md5sum="14373bedddd8419241a07408a5bd46c2"/>
         <file name="README.txt" role="php" md5sum="1f46eabe4a35a399786fbede13094341"/>
