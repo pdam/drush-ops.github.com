@@ -44,14 +44,14 @@
     <active>yes</active>
   </developer>
   <date>2011-09-04</date>
-  <time>12:38:46</time>
+  <time>12:53:29</time>
   <version>
-    <release>4.5.0</release>
+    <release>4.6.0</release>
     <api>4</api>
   </version>
   <stability>
-    <release>stable</release>
-    <api>stable</api>
+    <release>devel</release>
+    <api>devel</api>
   </stability>
   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
   <notes>Initial release.</notes>
@@ -75,7 +75,7 @@
             <file name="site_install_6.inc" role="php" md5sum="ab4ebc3f3765d3790dad81032e428a65"/>
             <file name="update.inc" role="php" md5sum="017c9de03ab129765ee8bc6af17aec1c"/>
             <file name="update_5.inc" role="php" md5sum="33b6ca1b1770375f340912681ef95531"/>
-            <file name="update_6.inc" role="php" md5sum="0fa2e437ef14de50bfb72d8dc6020015"/>
+            <file name="update_6.inc" role="php" md5sum="23974646783b2843f303e4de4fcd9eb2"/>
           </dir>
           <file name="field.drush.inc" role="php" md5sum="cc3c11bee1a96ad1c0fe8b04f0d2230a"/>
           <file name="help.drush.inc" role="php" md5sum="70ae16a8f7ee1c7a7500476da28e31a3"/>
@@ -87,7 +87,7 @@
           <file name="sitealias.drush.inc" role="php" md5sum="aee36ddd74e6f010f4c246fa60e434f2"/>
           <file name="test.drush.inc" role="php" md5sum="82a0a1ca3f96b7bf6bc11394fa9909d4"/>
           <file name="topic.drush.inc" role="php" md5sum="5e1b916b4ad3bb2c50b2c5f1a4d00a32"/>
-          <file name="upgrade.drush.inc" role="php" md5sum="89856b7bc2591cccf9d74655045b96ad"/>
+          <file name="upgrade.drush.inc" role="php" md5sum="8fc027eabd0c8e77d1c090cfa0dc2a0a"/>
           <file name="variable.drush.inc" role="php" md5sum="63ac0240ffe56f8328ac6c7c1423728f"/>
           <file name="watchdog.drush.inc" role="php" md5sum="59ecd974470aedfaa230b6091a5e58d3"/>
         </dir>
@@ -112,7 +112,7 @@
         </dir>
         <dir name="sql">
           <file name="sql.drush.inc" role="php" md5sum="2df1b2e2969e9b7f888dd5d93b6593a6"/>
-          <file name="sync.sql.inc" role="php" md5sum="c3d8390ff0d12d8c841acb008f4b288f"/>
+          <file name="sync.sql.inc" role="php" md5sum="2f6beefe5d6d8c8ec0d12ec2f9fb31bf"/>
         </dir>
         <dir name="user">
           <file name="user.drush.inc" role="php" md5sum="3e12b77d9e290a24b9b6b8668241e015"/>
@@ -120,7 +120,7 @@
       </dir>
       <dir name="docs">
         <file name="bootstrap.html" role="php" md5sum="57917a9befc3962eeb6d316e0b33c662"/>
-        <file name="commands.html" role="php" md5sum="41bd51b38c302820b511eccb17f13ee4"/>
+        <file name="commands.html" role="php" md5sum="da6db65a695827e2aa889778602dd487"/>
         <file name="context.html" role="php" md5sum="c0cf0407318bad8156c49c1c87560f7c"/>
         <file name="drush.api.php" role="php" md5sum="fa72a1e2418a0c21a0f4646b32397c20"/>
         <file name="shellscripts.html" role="php" md5sum="54e160f9122dbdb5102d35ce881876e5"/>
@@ -138,11 +138,11 @@
         <tasks:replace type="pear-config" from="@bin_dir@" to="bin_dir"/>
         <tasks:replace type="pear-config" from="@pear_directory@" to="php_dir"/>
       </file>
-      <file name="drush.info" role="php" md5sum="090780ebd5b7c3c739bc0bfa3f6443d0"/>
+      <file name="drush.info" role="php" md5sum="6d9d5083f7a711ff16f2278728f0d13c"/>
       <file name="drush.php" role="php" md5sum="b89c3dcbbf441d519fd41b7d828dcfd9"/>
       <file name="drush_logo-black.png" role="php" md5sum="d0dfa5741232719e554808a38ec05598"/>
       <dir name="examples">
-        <file name="example.aliases.drushrc.php" role="php" md5sum="2a44349d2289d0a5f9c51ff070703171"/>
+        <file name="example.aliases.drushrc.php" role="php" md5sum="8aced92d8ae3bc6dac7f6cc93efc94b4"/>
         <file name="example.bashrc" role="php" md5sum="dedbe42ecfcac3ae19cb23136a02879f"/>
         <file name="example.drush.ini" role="php" md5sum="a56cceaab6f99250965688ac4ec29548"/>
         <file name="example.drushrc.php" role="php" md5sum="b02d5aee97b3c52285db4a9a40920399"/>
@@ -157,10 +157,10 @@
         <file name=".gitignore" role="php" md5sum="3db15a4344f581cbffd5958c870088ba"/>
         <file name="backend.inc" role="php" md5sum="e2e5af63ad037df4c5f08e2145188e74"/>
         <file name="batch.inc" role="php" md5sum="a737934744ea65749dd5b41aae62cb8a"/>
-        <file name="command.inc" role="php" md5sum="ec8af33c36f04c0c766c88641c726aa2"/>
+        <file name="command.inc" role="php" md5sum="f7c1692b1e34b95877d482d743023810"/>
         <file name="context.inc" role="php" md5sum="f50f085dc7739a9a8ce7faa2c7ca048b"/>
         <file name="drush.inc" role="php" md5sum="4ef59633305760cc412d0afac0c2a1a2"/>
-        <file name="environment.inc" role="php" md5sum="8ccd3aabae6345032fc5c9b310ad4968"/>
+        <file name="environment.inc" role="php" md5sum="1c82087dc5a2ef1a70f9bc7e5c1068e0"/>
         <file name="sitealias.inc" role="php" md5sum="fe4417fb3b236940ea3b417052f38256"/>
       </dir>
       <dir name="tests">
