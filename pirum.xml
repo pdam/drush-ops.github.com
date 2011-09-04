@@ -2,6 +2,6 @@
 <server>
   <name>pear.drush.org</name>
   <summary>Drush's PEAR Channel Server</summary>
-  <alias>pear</alias>
+  <alias>drush</alias>
   <url>http://pear.drush.org</url>
 </server>
