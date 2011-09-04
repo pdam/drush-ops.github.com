@@ -1,46 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://drush-ops.github.com/pear</id>
-    <updated>2011-09-04T12:17:36-05:00</updated>
+    <id>http://pear.drush.org</id>
+    <updated>2011-09-04T12:25:49-05:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
-    <link href="http://drush-ops.github.com/pear/feed.xml" rel="self" />
+    <link href="http://pear.drush.org/feed.xml" rel="self" />
     <author>
-        <name>http://drush-ops.github.com/pear</name>
+        <name>http://pear.drush.org</name>
     </author>
 
     <entry>
-        <title>PHPUnit_Drush 0.1.0 (beta)</title>
-        <link href="http://drush-ops.github.com/pear/get/PHPUnit_Drush-0.1.0.tgz" />
-        <id>http://drush-ops.github.com/pear/get/PHPUnit_Drush-0.1.0.tgz</id>
-        <author>
-            <name>msonnabaum</name>
-        </author>
-        <updated>2011-07-21T18:31:29-05:00</updated>
-        <content>
-            Drush integration for PHPUnit
-        </content>
-    </entry>    <entry>
-        <title>drush 5.0.0 (devel)</title>
-        <link href="http://drush-ops.github.com/pear/get/drush-5.0.0.tgz" />
-        <id>http://drush-ops.github.com/pear/get/drush-5.0.0.tgz</id>
+        <title>drush 4.5.0 (stable)</title>
+        <link href="http://pear.drush.org/get/drush-4.5.0.tgz" />
+        <id>http://pear.drush.org/get/drush-4.5.0.tgz</id>
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-08-04T22:53:00-05:00</updated>
-        <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
-        </content>
-    </entry>    <entry>
-        <title>drush 4.6.0 (devel)</title>
-        <link href="http://drush-ops.github.com/pear/get/drush-4.6.0.tgz" />
-        <id>http://drush-ops.github.com/pear/get/drush-4.6.0.tgz</id>
-        <author>
-            <name>weitzman</name>
-        </author>
-        <updated>2011-08-26T11:16:10-05:00</updated>
+        <updated>2011-09-04T12:23:43-05:00</updated>
         <content>
             Drush is a command line shell and Unix scripting interface for Drupal.
     If you are unfamiliar with shell scripting, reviewing the documentation

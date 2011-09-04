@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <m xmlns="http://pear.php.net/dtd/rest.packagemaintainers2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.packagemaintainers2 http://pear.php.net/dtd/rest.packagemaintainers2.xsd">
     <p>drush</p>
-    <c>drush-ops.github.com/pear</c>
+    <c>pear.drush.org</c>
     <m>
         <h>weitzman</h>
         <a>1</a>
         <r>lead</r>
+    </m>
+    <m>
+        <h>grugnog</h>
+        <a>1</a>
+        <r>developer</r>
+    </m>
+    <m>
+        <h>msonnabaum</h>
+        <a>1</a>
+        <r>developer</r>
+    </m>
+    <m>
+        <h>anarcat</h>
+        <a>1</a>
+        <r>developer</r>
+    </m>
+    <m>
+        <h>greg.1.anderson</h>
+        <a>1</a>
+        <r>developer</r>
+    </m>
+    <m>
+        <h>jonhattan</h>
+        <a>1</a>
+        <r>developer</r>
     </m>
 
 </m>

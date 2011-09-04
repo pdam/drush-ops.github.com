@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Drush's PEAR Channel Server</title>
-    <link rel="stylesheet" type="text/css" href="http://drush-ops.github.com/pear/pirum.css" />
-    <link rel="alternate" type="application/rss+xml" href="http://drush-ops.github.com/pear/feed.xml" title="Drush's PEAR Channel Server Latest Releases" />
+    <link rel="stylesheet" type="text/css" href="http://pear.drush.org/pirum.css" />
+    <link rel="alternate" type="application/rss+xml" href="http://pear.drush.org/feed.xml" title="Drush's PEAR Channel Server Latest Releases" />
 </head>
 <body>
     <div id="doc" class="yui-t7">
@@ -16,30 +16,19 @@
                 <h2>Using this Channel</h2>
                 <p>This channel is to be used with the PEAR installer.</p>
                 <em>Registering</em> the channel:
-                <pre><code>pear channel-discover drush-ops.github.com/pear</code></pre>
+                <pre><code>pear channel-discover pear.drush.org</code></pre>
                 <em>Listing</em> available packages:
-                <pre><code>pear remote-list -c drush-ops</code></pre>
+                <pre><code>pear remote-list -c pear</code></pre>
                 <em>Installing</em> a package:
-                <pre><code>pear install drush-ops/package_name</code></pre>
+                <pre><code>pear install pear/package_name</code></pre>
                 <em>Installing</em> a specific version/stability:
-                <pre><code>pear install drush-ops/package_name-1.0.0
-pear install drush-ops/package_name-beta</code></pre>
-                <em>Receiving</em> updates via a <a href="http://drush-ops.github.com/pear/feed.xml">feed</a>:
-                <pre><code>http://drush-ops.github.com/pear/feed.xml</code></pre>
+                <pre><code>pear install pear/package_name-1.0.0
+pear install pear/package_name-beta</code></pre>
+                <em>Receiving</em> updates via a <a href="http://pear.drush.org/feed.xml">feed</a>:
+                <pre><code>http://pear.drush.org/feed.xml</code></pre>
 
                 <h2>Packages</h2>
 
-                                    <h3>PHPUnit_Drush<small> - Drush integration for PHPUnit</small></h3>
-                    <p>Drush integration for PHPUnit</p>
-                    <ul>
-                        <li><strong>Package name</strong>: PHPUnit_Drush</li>
-                        <li><strong>License</strong>: BSD License</li>
-                                                <li><strong>Maintainers</strong>: Mark Sonnabaum (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://drush-ops.github.com/pear/get/PHPUnit_Drush-0.1.0.tgz">0.1.0</a> (beta)</li>
-                        <li><strong>Install command</strong>: pear install drush-ops/PHPUnit_Drush</li>
-                    </ul>
-
-                    <hr />
                                     <h3>drush<small> - command line shell and Unix scripting interface for Drupal</small></h3>
                     <p>Drush is a command line shell and Unix scripting interface for Drupal.
     If you are unfamiliar with shell scripting, reviewing the documentation
@@ -48,16 +37,16 @@ pear install drush-ops/package_name-beta</code></pre>
                     <ul>
                         <li><strong>Package name</strong>: drush</li>
                         <li><strong>License</strong>: GPL</li>
-                                                <li><strong>Maintainers</strong>: Moshe Weitzman (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://drush-ops.github.com/pear/get/drush-5.0.0.tgz">5.0.0</a> (devel), <a href="http://drush-ops.github.com/pear/get/drush-4.6.0.tgz">4.6.0</a> (devel)</li>
-                        <li><strong>Install command</strong>: pear install drush-ops/drush</li>
+                                                <li><strong>Maintainers</strong>: Moshe Weitzman (as lead), Owen Barton (as developer), Mark Sonnabaum (as developer), Antoine Beaupré (as developer), Greg Anderson (as developer), Jonathan Araña Cruz (as developer)</li>
+                                                <li><strong>Releases</strong>: <a href="http://pear.drush.org/get/drush-4.5.0.tgz">4.5.0</a> (stable)</li>
+                        <li><strong>Install command</strong>: pear install pear/drush</li>
                     </ul>
 
                     <hr />
                             </div>
         </div>
         <div id="ft">
-            <p><small>The <em>drush-ops.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.2</small></p>
+            <p><small>The <em>pear.drush.org</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.2</small></p>
         </div>
     </div>
 </body>
