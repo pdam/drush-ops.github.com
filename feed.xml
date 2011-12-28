@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.drush.org</id>
-    <updated>2011-09-04T14:41:37-05:00</updated>
+    <updated>2011-12-28T15:20:57-06:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
     <link href="http://pear.drush.org/feed.xml" rel="self" />
     <author>
@@ -17,10 +17,9 @@
         </author>
         <updated>2011-09-04T14:37:40-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.6.0 (devel)</title>
@@ -31,10 +30,9 @@
         </author>
         <updated>2011-09-04T14:37:48-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.5.0 (stable)</title>
@@ -45,10 +43,9 @@
         </author>
         <updated>2011-09-04T14:37:31-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.4.0 (stable)</title>
@@ -59,10 +56,9 @@
         </author>
         <updated>2011-09-04T14:37:23-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.3.0 (devel)</title>
@@ -73,10 +69,9 @@
         </author>
         <updated>2011-09-04T14:37:16-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.2.0 (stable)</title>
@@ -87,10 +82,9 @@
         </author>
         <updated>2011-09-04T14:37:09-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.1.0 (stable)</title>
@@ -101,10 +95,9 @@
         </author>
         <updated>2011-09-04T14:37:03-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>drush 4.0.0 (stable)</title>
@@ -115,10 +108,9 @@
         </author>
         <updated>2011-09-04T14:36:56-05:00</updated>
         <content>
-            Drush is a command line shell and Unix scripting interface for Drupal.
-    If you are unfamiliar with shell scripting, reviewing the documentation
-    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
-    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.
+            
+Initial release.
+ 
         </content>
     </entry>
 </feed>
