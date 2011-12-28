@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0         http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>drush</name>
+ <channel>pear.drush.org</channel>
+ <summary>command line shell and Unix scripting interface for Drupal</summary>
+ <description>Drush is a command line shell and Unix scripting interface for Drupal.
+    If you are unfamiliar with shell scripting, reviewing the documentation
+    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
+    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.</description>
+ <lead>
+  <name>Moshe Weitzman</name>
+  <user>weitzman</user>
+  <email>weitzman@tejasa.com</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Owen Barton</name>
+  <user>grugnog</user>
+  <email>drupal@owenbarton.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Mark Sonnabaum</name>
+  <user>msonnabaum</user>
+  <email>marksonnabaum@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Antoine Beaupré</name>
+  <user>anarcat</user>
+  <email>anarcat@koumbit.org</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Greg Anderson</name>
+  <user>greg.1.anderson</user>
+  <email>greg.1.anderson@greenknowe.org</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Jonathan Araña Cruz</name>
+  <user>jonhattan</user>
+  <email>jonhattan@faita.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2011-12-28</date>
+ <time>21:36:05</time>
+ <version>
+  <release>5.0.0</release>
+  <api>5</api>
+ </version>
+ <stability>
+  <release>devel</release>
+  <api>devel</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+ <notes>
+Initial release.
+ </notes>
+ <contents>
+  <dir baseinstalldir="drush" name="/">
+   <file baseinstalldir="drush" md5sum="409394e586225c2cea9d35d1583d8bad" name="commands/core/drupal/batch.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="42b1fd5f42c6e39d9774713b1c6d829f" name="commands/core/drupal/batch_6.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="49ad2e02d4bbf68890102be63846fb48" name="commands/core/drupal/environment.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="4e34340389821fb2acb008ce9a975475" name="commands/core/drupal/environment_6.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="d683ad10abc51a1288d4126b6201e283" name="commands/core/drupal/site_install.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="bedbe97f6c877779322bc3e709612a99" name="commands/core/drupal/site_install_6.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="ef2c127aa16a579b35e15c98f28f2882" name="commands/core/drupal/update.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="d8171a172b010b76b600cdd6e2e0dc48" name="commands/core/drupal/update_6.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="6447af13f59b57a754ae80e9ed62c3f9" name="commands/core/drupal/update_7.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="6093417269934bd5cfab416f17b545d3" name="commands/core/archive.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="7bb8a48a46984b14f865d76d5bab2671" name="commands/core/cache.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="8f6ff498dbbca0aa35350e4c9204cd5f" name="commands/core/core.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="5cd82afe369fb485932d7c0bef6e8d0a" name="commands/core/docs.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="9da713dbe23eee3cec5a689b4266c2d4" name="commands/core/field.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="3d0e054f96bd2a5338d114512c4e7fe7" name="commands/core/help.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="dc22570801c9421c37d0a2c14e00d5cd" name="commands/core/image.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="ecc2a186d32c2467135700b178e22766" name="commands/core/rsync.core.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="0dd3ac77d1803a7e959a01c08e764441" name="commands/core/scratch.php" role="php" />
+   <file baseinstalldir="drush" md5sum="ec64891788d149ecbee5adc42a12d3c9" name="commands/core/search.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="749900c69c4717f37cfa9eadb333cc35" name="commands/core/shellalias.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="4d9bfdd7294c788c2ec7342a6e66fd7f" name="commands/core/site_install.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="a401d9539d2a06707ee31279364adc0a" name="commands/core/sitealias.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="1c836f4978c2dd60940434f1c419ac4f" name="commands/core/ssh.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="b826aaaeae384ea8e54472de7631c343" name="commands/core/test.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="59d20a40d8f2f243bcc764fb1bc444d4" name="commands/core/topic.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="1ac1c5f0affb17cc17acee32c223dae0" name="commands/core/upgrade.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="da9876f55c09bd1ae3868e389ce0f3cf" name="commands/core/variable.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="7d46bf470cf8902bd57bb4ef052d5164" name="commands/core/watchdog.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="4e94906779733d7705085e9b1ec66f5b" name="commands/make/EXAMPLE.make" role="php" />
+   <file baseinstalldir="drush" md5sum="f36f3499e30c44223a5b58200f8710ca" name="commands/make/README.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="ad59d69c458967957b7c5134f9eda666" name="commands/make/generate.make.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="aeac1731b97eccc65f8baee473e6d3b8" name="commands/make/make.download.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="869a2fd4f0518309cdb574ceba118663" name="commands/make/make.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="211cf9c9943d016f155157feb9dc398a" name="commands/make/make.project.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="dff815b0c43c8145a6bb2df7b7c9c495" name="commands/make/make.utilities.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="fb6b3d9be7b9714811ab74985a0500d6" name="commands/pm/package_handler/git_drupalorg.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="9926daccacaaf8d0b8ccce4d212fff53" name="commands/pm/package_handler/wget.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="ed7f78857669fcfdc4368c2eb71d3ad9" name="commands/pm/release_info/updatexml.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="f505bb13be7bdf448b51c7e579f5bd56" name="commands/pm/update_info/drupal.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="432884c8657c8af37acb91996faa440b" name="commands/pm/update_info/drupal_6.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="09281acc8aaddf60b9128677265f9215" name="commands/pm/version_control/backup.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="2941de612111c8daf07641cc644d0812" name="commands/pm/version_control/bzr.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="ade0ce847d1d9539ab8bc29bdc3e9be7" name="commands/pm/version_control/svn.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="c23f90e304469f075eca53b73da05885" name="commands/pm/download.pm.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="7958fd4091b0dc65ffd861f1ebb09d26" name="commands/pm/info.pm.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="54973c002fb4c37ae62d2c77eae2f1ef" name="commands/pm/pm.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="654e780be5a2f2b71ddbd6392404f2eb" name="commands/pm/updatecode.pm.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="0dff206c1cd1f6072237690fa0a5fdc8" name="commands/runserver/runserver-drupal.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="777a76c511f57bd66a499c61203c1e8f" name="commands/runserver/runserver-prepend.php" role="php" />
+   <file baseinstalldir="drush" md5sum="dc88dd57e34f03be669a26ffaf8ff23f" name="commands/runserver/runserver.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="0691ca5897cd9ea73fce64b1850abe1f" name="commands/sql/sql.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="16ca96d6de1183f6a906459c66b4987e" name="commands/sql/sync.sql.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="d42e05649be9faf21ddbfc9815f775de" name="commands/user/user.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="efb0c4e2e6d00be32d1bdfbd445c5abf" name="docs/bastion.html" role="php" />
+   <file baseinstalldir="drush" md5sum="a668c749259636a8273c8c1611e72347" name="docs/bootstrap.html" role="php" />
+   <file baseinstalldir="drush" md5sum="837844c81eb77d4b810aaf427f0dd3fa" name="docs/commands.html" role="php" />
+   <file baseinstalldir="drush" md5sum="c0cf0407318bad8156c49c1c87560f7c" name="docs/context.html" role="php" />
+   <file baseinstalldir="drush" md5sum="d1a4ce8fef383cf0798f9ae706e5ec62" name="docs/cron.html" role="php" />
+   <file baseinstalldir="drush" md5sum="38195d447fed431491da6a6464558d7d" name="docs/drush.api.php" role="php" />
+   <file baseinstalldir="drush" md5sum="63ab9c08be6dbb49f6de6dd2c1fbe98b" name="docs/shellaliases.html" role="php" />
+   <file baseinstalldir="drush" md5sum="5c3f33a9a60b05f24fb805a0a5f656bc" name="docs/shellscripts.html" role="php" />
+   <file baseinstalldir="drush" md5sum="3482470b166bdc7c02b74def2f9c5de9" name="docs/upgrade.html" role="php" />
+   <file baseinstalldir="drush" md5sum="63a632ce61c80cd7b20ff3e48f0a23f5" name="examples/example.aliases.drushrc.php" role="php" />
+   <file baseinstalldir="drush" md5sum="fce8bbd91fa4201ceba7d12988178a54" name="examples/example.bashrc" role="php" />
+   <file baseinstalldir="drush" md5sum="a56cceaab6f99250965688ac4ec29548" name="examples/example.drush.ini" role="php" />
+   <file baseinstalldir="drush" md5sum="4fa816cce08f0a69d9032b5d6cb9dd48" name="examples/example.drushrc.php" role="php" />
+   <file baseinstalldir="drush" md5sum="226f0fbdb8a03a2d1dec0c5703108cf9" name="examples/helloworld.script" role="php" />
+   <file baseinstalldir="drush" md5sum="448d80f48d6cc692183252fffd7dab54" name="examples/policy.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="12fe8fb3a8c838e09812ebf7ed23d78e" name="examples/sandwich-nocolor.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="081480fcb380048b1fc3f8f5c6b83566" name="examples/sandwich-topic.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="66bb7adc210249334cf2d78f934a28a7" name="examples/sandwich.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="2e5b566e28edbd0507cc7500f0d001e4" name="examples/sandwich.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="eb74f3ad9d2c2a405d61a4de6fcab096" name="examples/xkcd.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="3db15a4344f581cbffd5958c870088ba" name="includes/.gitignore" role="php" />
+   <file baseinstalldir="drush" md5sum="ef5aab67f972284725081fbb68ba97dd" name="includes/backend.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="0e53f588cc7ed2b538389d214069da07" name="includes/batch.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="a29580f713f7778a71bfa6ab39420d4f" name="includes/bootstrap.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="9f76a8b24f64b5e226e48a2aeb767e0e" name="includes/cache.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="e6f6715f5519594659b3cdb6ff611400" name="includes/command.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="3d266c743edcc27e686c967bea72139c" name="includes/complete.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="9ca50a6bc85a23ff625131d9675c3f1e" name="includes/context.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="f2e3a80d917d22605fef9ad39b3d70c8" name="includes/dbtng.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="5c5d886f6d9f06510e746dbdcd99d805" name="includes/drupal.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="6b5568bbd11f4e06209ab7b72877f924" name="includes/drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="64d5ecfb74a22c26fea4b47fba724ad4" name="includes/environment.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="cb5f8bc63bde9b7c70dbd54dc817c1c1" name="includes/exec.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="09c4fced0597451da5fda5d58c92fbb5" name="includes/filesystem.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="d5dea1586305747d2e9ec666e9a02c9e" name="includes/output.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="91ef6082d99142bf701921add6193679" name="includes/sitealias.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="aeb29d33d12981b945328f03a1a9e3db" name="lib/README.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="f95e08def912e60dd689f3cd73d34f37" name="tests/hooks/magic_help_alter/magic.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="7a27456c7f6d4a7b12fdc89823fc09be" name="tests/makefiles/bzr.make" role="php" />
+   <file baseinstalldir="drush" md5sum="b4d95e9c2656de920cd67d689a0b0cd5" name="tests/makefiles/contrib-destination.make" role="php" />
+   <file baseinstalldir="drush" md5sum="e536fdfcba13de1279d31087d3d58fb7" name="tests/makefiles/file.make" role="php" />
+   <file baseinstalldir="drush" md5sum="f81c85ab48519deb6ca47c9df379aa08" name="tests/makefiles/get.make" role="php" />
+   <file baseinstalldir="drush" md5sum="fca9df50f5748c5c52e522e4db61ae9a" name="tests/makefiles/git.make" role="php" />
+   <file baseinstalldir="drush" md5sum="d566aa8671b68bc71064e8c0ce4f5085" name="tests/makefiles/include.make" role="php" />
+   <file baseinstalldir="drush" md5sum="9630125c64ef729aa7e0f951c100e3db" name="tests/makefiles/included.make" role="php" />
+   <file baseinstalldir="drush" md5sum="e32ba7a04f7dd05022219b7f2019421a" name="tests/makefiles/included2.make" role="php" />
+   <file baseinstalldir="drush" md5sum="5afb7a69db792142a36f601070ac5f1c" name="tests/makefiles/md5-fail.make" role="php" />
+   <file baseinstalldir="drush" md5sum="dea229ec837aff61f3405254d0d0f84a" name="tests/makefiles/md5-succeed.make" role="php" />
+   <file baseinstalldir="drush" md5sum="44f7bf1cbe5a00e0adf806d162b54891" name="tests/makefiles/patches.make" role="php" />
+   <file baseinstalldir="drush" md5sum="fa4c1f637877b2e15b35a67f79bb5808" name="tests/makefiles/post.make" role="php" />
+   <file baseinstalldir="drush" md5sum="1a8f73d1d300c56dabcd02f490832492" name="tests/makefiles/recursion.make" role="php" />
+   <file baseinstalldir="drush" md5sum="05d2b270f8bb0a3a83e03d8ad2e6ecc7" name="tests/makefiles/svn.make" role="php" />
+   <file baseinstalldir="drush" md5sum="5423868d8a4edfa7c92485644f3ce293" name="tests/makefiles/translations.make" role="php" />
+   <file baseinstalldir="drush" md5sum="b97a1825986c6482d9718c4e261e13f8" name="tests/COVERAGE.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="82edea5fd2ee7fd6bad59d9758e96565" name="tests/README.txt" role="php" />
+   <file baseinstalldir="drush" md5sum="a17e0f23404aead5859cb74d44e3eecf" name="tests/archiveDumpTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="e20b929b837788efa38549630ddc5bf9" name="tests/backendTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="4d228a46820c5452c42897f638add484" name="tests/batchTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="8f9a3408b876db1a92ee074c98f4f40f" name="tests/cacheCommandTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="fc49ce421385e8f6b0fc6ddfb69107fe" name="tests/commandTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="62973453e344958d2664baa2aedc5ded" name="tests/commandUnitTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="56cde8c0e604ee24b6aa3126a957eb0c" name="tests/completeTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="99e076bcd3589e7ae1846480da630abb" name="tests/contextTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="cf89707a53d1073deb2c3fad247da957" name="tests/coreTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="7f2a9d2d7ecf7b18c662840c064d09ca" name="tests/devel.xml" role="php" />
+   <file baseinstalldir="drush" md5sum="22fd0f69fb5d20f6c1e61c6397df0562" name="tests/drush_testcase.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="cdd6bc551d31cdbfe9c43c8526f977a0" name="tests/fieldTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="7249894c156d2355e0761c7249cd15d9" name="tests/generateMakeTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="e4712f247741a1659d2cca9aaef6f0e7" name="tests/makeTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="60718a328d1a57981072a8b74dd33d0b" name="tests/phpunit.xml.dist" role="php" />
+   <file baseinstalldir="drush" md5sum="8b5596b20de0614bc090e45bfb08fa20" name="tests/pmDownloadTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="3ffe006bfdca295073dd870948ab39fd" name="tests/pmEnDisUnListTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="9668a36160fe7f94bbb4e3b5ecc53f14" name="tests/pmTest.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="97abf118f0c908003d85ad2a65b9a1f0" name="tests/pmUpdateCodeTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="03247f20f94ba5cabf319a540e592255" name="tests/runner.php" role="php" />
+   <file baseinstalldir="drush" md5sum="653f235b0db48e33b73a0d77fe1b8326" name="tests/shellAliasTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="645daaa9279c6a8a0415d074b6baee0a" name="tests/siteAliasTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="71021ff73f212550af583f43cb2e852f" name="tests/siteSetTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="1e6a3aa084a65a9bac5a5740383ef628" name="tests/siteSetUnitTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="7f8fbe0e36500c1aedad47368807477e" name="tests/siteSshTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="ba767a25bea6747b4a1bc02333e3aea9" name="tests/siteUpgradeTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="5df89a9c1a1bc4ec1f2ed39e4c103607" name="tests/sqlSyncTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="a0c241f786f352329d68c73444db678d" name="tests/unit.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="19599bf53c8a319e2ddc7fc5838e62e4" name="tests/userTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="6a8049600f83057e47977e64a37db623" name="tests/variableTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="a900f7dee78304930c6cd1bb388373aa" name=".gitignore" role="php" />
+   <file baseinstalldir="drush" md5sum="44d12b7dec4d7798dfab73d08858e822" name="README.txt" role="php" />
+   <file baseinstalldir="/" md5sum="801b396e045598e9bed345ef47b37f47" name="drush" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+    <tasks:replace from="@pear_directory@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d8ffc1549d62f816cf7f7fc91f50ded4" name="drush.bat" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+    <tasks:replace from="@pear_directory@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="drush" md5sum="5305d4d65df31c85e80dc8e2fc50a492" name="drush.complete.sh" role="php" />
+   <file baseinstalldir="drush" md5sum="18965f9837681dcc7bc9231c6041d580" name="drush.info" role="php" />
+   <file baseinstalldir="drush" md5sum="9e818307feeade2aa0396007871137c2" name="drush.php" role="php" />
+   <file baseinstalldir="drush" md5sum="d0dfa5741232719e554808a38ec05598" name="drush_logo-black.png" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="drush" name="drush" />
+   <install as="drush.bat" name="drush.bat" />
+  </filelist>
+ </phprelease>
+</package>
