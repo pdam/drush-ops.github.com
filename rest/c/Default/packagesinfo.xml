@@ -20,12 +20,32 @@
                 <s>devel</s>
             </r>
             <r>
+                <v>5.0.0RC3</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>5.0.0RC2</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>5.0.0RC1</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>4.6.0</v>
                 <s>devel</s>
             </r>
             <r>
+                <v>4.5.01</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>4.5.0</v>
                 <s>stable</s>
+            </r>
+            <r>
+                <v>4.5.0RC1</v>
+                <s>beta</s>
             </r>
             <r>
                 <v>4.4.0</v>
@@ -47,6 +67,14 @@
                 <v>4.0.0</v>
                 <s>stable</s>
             </r>
+            <r>
+                <v>4.0.00</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>4.0.0RC0</v>
+                <s>beta</s>
+            </r>
 
         </a>
 
@@ -55,11 +83,31 @@
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
         <deps>
+            <v>5.0.0RC3</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>5.0.0RC2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>5.0.0RC1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
             <v>4.6.0</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
         <deps>
+            <v>4.5.01</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
             <v>4.5.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>4.5.0RC1</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
         <deps>
@@ -80,6 +128,14 @@
         </deps>
         <deps>
             <v>4.0.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>4.0.00</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>4.0.0RC0</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
 
