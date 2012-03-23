@@ -43,8 +43,14 @@
   <email>jonhattan@faita.net</email>
   <active>yes</active>
  </developer>
- <date>2012-02-27</date>
- <time>03:16:08</time>
+ <developer>
+  <name>Jonathan Hedstrom</name>
+  <user>jhedstrom</user>
+  <email>jhedstrom@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2012-03-23</date>
+ <time>21:53:50</time>
  <version>
   <release>4.5.0RC1</release>
   <api>4</api>

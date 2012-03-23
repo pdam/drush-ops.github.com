@@ -13,11 +13,11 @@
     If you are unfamiliar with shell scripting, reviewing the documentation
     for your shell (e.g. man bash) or reading an online tutorial (e.g. search
     for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.</d>
-    <da>2012-02-27 03:16:08</da>
+    <da>2012-03-23 21:53:50</da>
     <n>
 Initial release.
  </n>
-    <f>281524</f>
+    <f>281525</f>
     <g>http://pear.drush.org/get/drush-4.5.0RC1</g>
     <x xlink:href="package.4.5.0RC1.xml"/>
 </r>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.drush.org</id>
-    <updated>2012-03-23T16:36:52-05:00</updated>
+    <updated>2012-03-23T16:55:15-05:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
     <link href="http://pear.drush.org/feed.xml" rel="self" />
     <author>
@@ -9,13 +9,26 @@
     </author>
 
     <entry>
-        <title>drush 5.0.0 (devel)</title>
+        <title>drush 6.0.0 (devel)</title>
+        <link href="http://pear.drush.org/get/drush-6.0.0.tgz" />
+        <id>http://pear.drush.org/get/drush-6.0.0.tgz</id>
+        <author>
+            <name>weitzman</name>
+        </author>
+        <updated>2012-03-23T21:55:00-05:00</updated>
+        <content>
+            
+Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>drush 5.0.0 (stable)</title>
         <link href="http://pear.drush.org/get/drush-5.0.0.tgz" />
         <id>http://pear.drush.org/get/drush-5.0.0.tgz</id>
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:40-05:00</updated>
+        <updated>2012-03-23T21:54:01-05:00</updated>
         <content>
             
 Initial release.
@@ -28,7 +41,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-03-23T21:02:32-05:00</updated>
+        <updated>2012-03-23T21:54:50-05:00</updated>
         <content>
             
 Initial release.
@@ -41,7 +54,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-03-23T21:02:21-05:00</updated>
+        <updated>2012-03-23T21:54:40-05:00</updated>
         <content>
             
 Initial release.
@@ -54,7 +67,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-02-24T05:52:33-06:00</updated>
+        <updated>2012-03-23T21:54:31-05:00</updated>
         <content>
             
 Initial release.
@@ -67,7 +80,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-02-24T05:52:26-06:00</updated>
+        <updated>2012-03-23T21:54:21-05:00</updated>
         <content>
             
 Initial release.
@@ -80,7 +93,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-02-24T05:52:17-06:00</updated>
+        <updated>2012-03-23T21:54:11-05:00</updated>
         <content>
             
 Initial release.
@@ -93,20 +106,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:48-05:00</updated>
-        <content>
-            
-Initial release.
- 
-        </content>
-    </entry>    <entry>
-        <title>drush 4.5.01 (beta)</title>
-        <link href="http://pear.drush.org/get/drush-4.5.01.tgz" />
-        <id>http://pear.drush.org/get/drush-4.5.01.tgz</id>
-        <author>
-            <name>weitzman</name>
-        </author>
-        <updated>2012-02-24T05:47:19-06:00</updated>
+        <updated>2012-03-23T21:55:09-05:00</updated>
         <content>
             
 Initial release.
@@ -119,7 +119,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:31-05:00</updated>
+        <updated>2012-03-23T21:53:43-05:00</updated>
         <content>
             
 Initial release.
@@ -132,7 +132,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-02-27T03:16:08-06:00</updated>
+        <updated>2012-03-23T21:53:50-05:00</updated>
         <content>
             
 Initial release.
@@ -145,7 +145,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:23-05:00</updated>
+        <updated>2012-03-23T21:53:36-05:00</updated>
         <content>
             
 Initial release.
@@ -158,7 +158,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:16-05:00</updated>
+        <updated>2012-03-23T21:53:30-05:00</updated>
         <content>
             
 Initial release.
@@ -171,7 +171,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:09-05:00</updated>
+        <updated>2012-03-23T21:53:24-05:00</updated>
         <content>
             
 Initial release.
@@ -184,7 +184,7 @@ Initial release.
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2011-09-04T14:37:03-05:00</updated>
+        <updated>2012-03-23T21:53:19-05:00</updated>
         <content>
             
 Initial release.
@@ -204,26 +204,13 @@ Initial release.
  
         </content>
     </entry>    <entry>
-        <title>drush 4.0.00 (beta)</title>
-        <link href="http://pear.drush.org/get/drush-4.0.00.tgz" />
-        <id>http://pear.drush.org/get/drush-4.0.00.tgz</id>
-        <author>
-            <name>weitzman</name>
-        </author>
-        <updated>2012-02-24T05:46:45-06:00</updated>
-        <content>
-            
-Initial release.
- 
-        </content>
-    </entry>    <entry>
         <title>drush 4.0.0RC0 (beta)</title>
         <link href="http://pear.drush.org/get/drush-4.0.0RC0.tgz" />
         <id>http://pear.drush.org/get/drush-4.0.0RC0.tgz</id>
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2012-02-24T05:49:45-06:00</updated>
+        <updated>2012-03-23T21:53:14-05:00</updated>
         <content>
             
 Initial release.
