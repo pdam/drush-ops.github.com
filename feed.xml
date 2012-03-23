@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.drush.org</id>
-    <updated>2012-02-26T21:39:07-06:00</updated>
+    <updated>2012-03-23T16:02:58-05:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
     <link href="http://pear.drush.org/feed.xml" rel="self" />
     <author>
@@ -16,6 +16,32 @@
             <name>weitzman</name>
         </author>
         <updated>2011-09-04T14:37:40-05:00</updated>
+        <content>
+            
+Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>drush 5.0.0RC5 (beta)</title>
+        <link href="http://pear.drush.org/get/drush-5.0.0RC5.tgz" />
+        <id>http://pear.drush.org/get/drush-5.0.0RC5.tgz</id>
+        <author>
+            <name>weitzman</name>
+        </author>
+        <updated>2012-03-23T21:02:32-05:00</updated>
+        <content>
+            
+Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>drush 5.0.0RC4 (beta)</title>
+        <link href="http://pear.drush.org/get/drush-5.0.0RC4.tgz" />
+        <id>http://pear.drush.org/get/drush-5.0.0RC4.tgz</id>
+        <author>
+            <name>weitzman</name>
+        </author>
+        <updated>2012-03-23T21:02:21-05:00</updated>
         <content>
             
 Initial release.
