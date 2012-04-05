@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/drush">drush</p>
+    <c>pear.drush.org</c>
+    <v>5.1.0</v>
+    <a>5</a>
+    <mp>5.0.0</mp>
+    <st>stable</st>
+    <l>GPL</l>
+    <m>weitzman</m>
+    <s>command line shell and Unix scripting interface for Drupal</s>
+    <d>Drush is a command line shell and Unix scripting interface for Drupal.
+    If you are unfamiliar with shell scripting, reviewing the documentation
+    for your shell (e.g. man bash) or reading an online tutorial (e.g. search
+    for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.</d>
+    <da>2012-04-05 06:18:07</da>
+    <n>
+Initial release.
+ </n>
+    <f>396070</f>
+    <g>http://pear.drush.org/get/drush-5.1.0</g>
+    <x xlink:href="package.5.1.0.xml"/>
+</r>
