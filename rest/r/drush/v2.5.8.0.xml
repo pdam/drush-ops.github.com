@@ -2,7 +2,7 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/drush">drush</p>
     <c>pear.drush.org</c>
-    <v>5.7.0</v>
+    <v>5.8.0</v>
     <a>5</a>
     <mp>5.0.0</mp>
     <st>stable</st>
@@ -13,11 +13,11 @@
     If you are unfamiliar with shell scripting, reviewing the documentation
     for your shell (e.g. man bash) or reading an online tutorial (e.g. search
     for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.</d>
-    <da>2012-08-28 19:29:45</da>
+    <da>2012-11-12 22:21:16</da>
     <n>
 Initial release.
  </n>
-    <f>403747</f>
-    <g>http://pear.drush.org/get/drush-5.7.0</g>
-    <x xlink:href="package.5.7.0.xml"/>
+    <f>406891</f>
+    <g>http://pear.drush.org/get/drush-5.8.0</g>
+    <x xlink:href="package.5.8.0.xml"/>
 </r>
