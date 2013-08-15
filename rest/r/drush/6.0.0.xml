@@ -3,7 +3,7 @@
     <p xlink:href="/rest/p/drush">drush</p>
     <c>pear.drush.org</c>
     <v>6.0.0</v>
-    <st>devel</st>
+    <st>stable</st>
     <l>GPL</l>
     <m>weitzman</m>
     <s>command line shell and Unix scripting interface for Drupal</s>
@@ -11,7 +11,7 @@
     If you are unfamiliar with shell scripting, reviewing the documentation
     for your shell (e.g. man bash) or reading an online tutorial (e.g. search
     for &amp;quot;bash tutorial&amp;quot;) will help you get the most out of Drush.</d>
-    <da>2012-03-23 21:55:00</da>
+    <da>2013-08-15 22:59:53</da>
     <n>
 Initial release.
  </n>
