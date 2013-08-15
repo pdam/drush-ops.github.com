@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.drush.org</id>
-    <updated>2013-08-15T17:17:14-05:00</updated>
+    <updated>2013-08-15T18:00:47-05:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
     <link href="http://pear.drush.org/feed.xml" rel="self" />
     <author>
