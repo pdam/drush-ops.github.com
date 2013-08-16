@@ -49,8 +49,8 @@
   <email>jhedstrom@gmail.com</email>
   <active>yes</active>
  </developer>
- <date>2013-08-15</date>
- <time>22:59:53</time>
+ <date>2013-08-16</date>
+ <time>18:09:14</time>
  <version>
   <release>6.0.0</release>
   <api>6</api>
@@ -119,8 +119,8 @@ Initial release.
    <file baseinstalldir="drush" md5sum="2f9e3c3a70bcc706d34939088b94b3cf" name="commands/core/watchdog.drush.inc" role="php" />
    <file baseinstalldir="drush" md5sum="5fa203c68cd83506cb3d9e9506d34e16" name="commands/make/generate.make.inc" role="php" />
    <file baseinstalldir="drush" md5sum="74adbe18aa89dc840c048aee4c9f3bab" name="commands/make/make.download.inc" role="php" />
-   <file baseinstalldir="drush" md5sum="7d91ecbe354b3c4cf03c7932217d8424" name="commands/make/make.drush.inc" role="php" />
-   <file baseinstalldir="drush" md5sum="33782baf3c953325e9383032b545e11f" name="commands/make/make.project.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="00cf5e295054d6bc3335416535f502a0" name="commands/make/make.drush.inc" role="php" />
+   <file baseinstalldir="drush" md5sum="16bde9483d982cb0bbb0d2c7b4c72130" name="commands/make/make.project.inc" role="php" />
    <file baseinstalldir="drush" md5sum="2976cd45d0a8d448b4fda1e3a21a1b24" name="commands/make/make.utilities.inc" role="php" />
    <file baseinstalldir="drush" md5sum="660755847883589bf61a58c6049cacde" name="commands/pm/package_handler/git_drupalorg.inc" role="php" />
    <file baseinstalldir="drush" md5sum="5eb5efdcebca2c2d222aaf7086b4cfe0" name="commands/pm/package_handler/wget.inc" role="php" />
@@ -248,6 +248,7 @@ Initial release.
    <file baseinstalldir="drush" md5sum="9bbaa988f6c2f757b507809a31af143b" name="tests/makefiles/patches-local-test-wysiwyg.patch" role="php" />
    <file baseinstalldir="drush" md5sum="84735fb81e78340a13fac8cd0d0244e0" name="tests/makefiles/patches.make" role="php" />
    <file baseinstalldir="drush" md5sum="a5c9d883b53e0a1f962054dec18b9074" name="tests/makefiles/qd-devel.make" role="php" />
+   <file baseinstalldir="drush" md5sum="f74b09d2a244ac9087793af9ec44c0e8" name="tests/makefiles/recursion-override.make" role="php" />
    <file baseinstalldir="drush" md5sum="7deb9fc80c33331d428a68b1414086d0" name="tests/makefiles/recursion.make" role="php" />
    <file baseinstalldir="drush" md5sum="00b59b84c13445e525bda68830bd7451" name="tests/makefiles/subtree.make" role="php" />
    <file baseinstalldir="drush" md5sum="05d2b270f8bb0a3a83e03d8ad2e6ecc7" name="tests/makefiles/svn.make" role="php" />
@@ -281,7 +282,7 @@ Initial release.
    <file baseinstalldir="drush" md5sum="df762216e51a5990b09836c86b251962" name="tests/filesystemTest.php" role="php" />
    <file baseinstalldir="drush" md5sum="6f7485a8c0b8a5f9620e3fdadd57a908" name="tests/generateMakeTest.php" role="php" />
    <file baseinstalldir="drush" md5sum="3f9b74fee4653091c8d98b50aa1b2f63" name="tests/imageTest.php" role="php" />
-   <file baseinstalldir="drush" md5sum="89dd22c758b8c2b68f7f7a758db9392d" name="tests/makeTest.php" role="php" />
+   <file baseinstalldir="drush" md5sum="b9d790c1ec06d5f32c5537e10b717cc6" name="tests/makeTest.php" role="php" />
    <file baseinstalldir="drush" md5sum="66d65b724a4868383d874ee19394b7dc" name="tests/outputFormatTest.php" role="php" />
    <file baseinstalldir="drush" md5sum="b6e3561a018a45558f2850100abca839" name="tests/outputFormatUnitTest.php" role="php" />
    <file baseinstalldir="drush" md5sum="e00342ee6acc7db79c416cc7944fb748" name="tests/phpunit.xml.dist" role="php" />

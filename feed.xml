@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.drush.org</id>
-    <updated>2013-08-15T18:08:48-05:00</updated>
+    <updated>2013-08-16T13:09:35-05:00</updated>
     <title>Drush's PEAR Channel Server Latest Releases</title>
     <link href="http://pear.drush.org/feed.xml" rel="self" />
     <author>
@@ -15,7 +15,7 @@
         <author>
             <name>weitzman</name>
         </author>
-        <updated>2013-08-15T22:59:53-05:00</updated>
+        <updated>2013-08-16T18:09:14-05:00</updated>
         <content>
             Drush is a command line shell and Unix scripting interface for Drupal.
     If you are unfamiliar with shell scripting, reviewing the documentation
