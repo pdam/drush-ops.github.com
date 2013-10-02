@@ -3,6 +3,10 @@
     <p>drush</p>
     <c>pear.drush.org</c>
     <r>
+        <v>6.1.0.0</v>
+        <s>stable</s>
+    </r>
+    <r>
         <v>6.0.0</v>
         <s>stable</s>
     </r>
