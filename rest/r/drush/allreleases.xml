@@ -35,6 +35,10 @@
         <s>beta</s>
     </r>
     <r>
+        <v>5.10.0.0</v>
+        <s>stable</s>
+    </r>
+    <r>
         <v>5.9.0</v>
         <s>stable</s>
     </r>

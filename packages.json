@@ -560,6 +560,74 @@
                     }
                 }
             },
+            "5.10.0.0": {
+                "name": "pear-drush\/drush",
+                "description": "command line shell and Unix scripting interface for Drupal",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.drush.org\/get\/drush-5.10.0.0.tgz"
+                },
+                "version": "5.10.0.0",
+                "time": "2013-12-08T05:47:24-06:00",
+                "require": {
+                    "php": ">=5.0.0"
+                },
+                "authors": [
+                    {
+                        "name": "Moshe Weitzman",
+                        "email": "weitzman@tejasa.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Owen Barton",
+                        "email": "drupal@owenbarton.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Mark Sonnabaum",
+                        "email": "marksonnabaum@gmail.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Antoine Beaupr\u00e9",
+                        "email": "anarcat@koumbit.org",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Greg Anderson",
+                        "email": "greg.1.anderson@greenknowe.org",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Jonathan Ara\u00f1a Cruz",
+                        "email": "jonhattan@faita.net",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Jonathan Hedstrom",
+                        "email": "jhedstrom@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "commands",
+                        "52": "docs",
+                        "62": "examples",
+                        "76": "includes",
+                        "91": "lib\/README.txt",
+                        "93": "tests",
+                        "165": ".gitignore",
+                        "166": ".travis.yml",
+                        "167": "CONTRIBUTING.md",
+                        "168": "README.md",
+                        "169": "drush.complete.sh",
+                        "170": "drush.info",
+                        "171": "drush.php",
+                        "172": "drush_logo-black.png"
+                    }
+                }
+            },
             "5.9.0": {
                 "name": "pear-drush\/drush",
                 "description": "command line shell and Unix scripting interface for Drupal",

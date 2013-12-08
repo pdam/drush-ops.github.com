@@ -48,6 +48,10 @@
                 <s>beta</s>
             </r>
             <r>
+                <v>5.10.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
                 <v>5.9.0</v>
                 <s>stable</s>
             </r>
@@ -176,6 +180,10 @@
         </deps>
         <deps>
             <v>6.0.0BETA1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>5.10.0.0</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
         <deps>
